@@ -331,6 +331,7 @@ export const EditProfile = () => {
                         alignSelf: 'center',
                         marginTop: '8%',
                         marginBottom: '8%',
+                        backgroundColor: 'white',
                         ...Platform.select({
                           ios: {
                             shadowColor: 'rgba(242, 86, 75, 0.32)',
@@ -660,6 +661,7 @@ export const EditProfile = () => {
                               true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                               false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                             }}
+                            hideBox={true}
                             style={{
                               width: Platform.OS === 'ios' ? 20 : 25,
                               height: Platform.OS === 'ios' ? 20 : 25,

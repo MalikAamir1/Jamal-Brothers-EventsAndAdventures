@@ -46,7 +46,7 @@ function ButtonWithIcon(props) {
             fontSize: 16,
             fontWeight: '600',
             marginHorizontal: 5,
-            fontFamily: 'GeneralSans-Variable'
+            fontFamily: 'GeneralSans-Regular'
           }}>
           Log Out
         </Text>

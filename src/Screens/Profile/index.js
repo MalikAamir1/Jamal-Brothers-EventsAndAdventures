@@ -209,7 +209,7 @@ export const Profile = ({route}) => {
                 style={{
                   width: 59,
                   height: 56,
-
+                  backgroundColor: 'white',
                   ...Platform.select({
                     ios: {
                       shadowColor: 'rgba(242, 86, 75, 0.2)',
@@ -265,7 +265,7 @@ export const Profile = ({route}) => {
                 style={{
                   width: 59,
                   height: 56,
-
+                  backgroundColor: 'white',
                   ...Platform.select({
                     ios: {
                       shadowColor: 'rgba(242, 86, 75, 0.2)',
@@ -316,7 +316,7 @@ export const Profile = ({route}) => {
                 style={{
                   width: 59,
                   height: 56,
-
+                  backgroundColor: 'white',
                   ...Platform.select({
                     ios: {
                       shadowColor: 'rgba(242, 86, 75, 0.2)',

@@ -31,7 +31,7 @@ function Heading(props) {
   return (
     <Headline
       style={{
-        fontFamily: fontfamily,
+        // fontFamily: fontfamily,
         fontStyle: Stylefont,
         fontWeight: Fontweight,
         fontSize: Fontsize,
@@ -50,7 +50,7 @@ function Heading(props) {
         marginVertical: mv,
         marginBottom: mb,
         letterSpacing: ls,
-        fontFamily: 'GeneralSans-Variable',
+        fontFamily: 'GeneralSans-Regular',
       }}>
       {Heading}
     </Headline>

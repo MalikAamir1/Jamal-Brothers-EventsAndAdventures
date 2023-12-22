@@ -40,7 +40,7 @@ function ButtonComp(props) {
             fontWeight: 600,
             lineHeight: 24,
             letterSpacing: -0.446,
-            fontFamily: 'GeneralSans-Variable',
+            fontFamily: 'GeneralSans-Regular',
           }}>
           {btnText}
         </Text>

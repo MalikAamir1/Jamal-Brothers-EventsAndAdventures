@@ -11,10 +11,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4DF198DF2B332A2600210A3B /* GeneralSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DF198DD2B33280000210A3B /* GeneralSans-Regular.ttf */; };
+		4DF198E12B33329500210A3B /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 4DF198E02B33329500210A3B /* fonts */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		85422336E44C9038F42F77F3 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B76BAB5524F1185EAB84107 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a */; };
-		86CF3D2B2B1DA3CA005ECF52 /* GeneralSans-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86CF3D2A2B1DA3CA005ECF52 /* GeneralSans-Variable.ttf */; };
-		CFDD8C024C6F10078A88A222 /* libPods-EventsAndAdventures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB48C3F0169C80EC5D8B084F /* libPods-EventsAndAdventures.a */; };
+		C0AEA548C11A61399B5F079F /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61397DDD0DDAB22A2A4EB8F0 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a */; };
+		F53E29E9DFD1266ED2085509 /* libPods-EventsAndAdventures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ACE2D5BEE27A2BCB9610E0E /* libPods-EventsAndAdventures.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +38,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EventsAndAdventures/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EventsAndAdventures/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EventsAndAdventures/main.m; sourceTree = "<group>"; };
-		1B04E20E48860A65CAC484F3 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig"; sourceTree = "<group>"; };
-		5355BF6A604E800C07BE5DF2 /* Pods-EventsAndAdventures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures.debug.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures.debug.xcconfig"; sourceTree = "<group>"; };
+		332B52094E45690A03953EE6 /* Pods-EventsAndAdventures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures.debug.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF198DB2B33223700210A3B /* GeneralSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Regular.ttf"; sourceTree = "<group>"; };
+		4DF198DD2B33280000210A3B /* GeneralSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GeneralSans-Regular.ttf"; path = "../assets/GeneralSans-Regular.ttf"; sourceTree = "<group>"; };
+		4DF198E02B33329500210A3B /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		61397DDD0DDAB22A2A4EB8F0 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventsAndAdventures-EventsAndAdventuresTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EventsAndAdventures/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86CF3D2A2B1DA3CA005ECF52 /* GeneralSans-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeneralSans-Variable.ttf"; sourceTree = "<group>"; };
-		96D1ADC714D31A19B6883DB1 /* Pods-EventsAndAdventures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures.release.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures.release.xcconfig"; sourceTree = "<group>"; };
-		9B76BAB5524F1185EAB84107 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventsAndAdventures-EventsAndAdventuresTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB48C3F0169C80EC5D8B084F /* libPods-EventsAndAdventures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventsAndAdventures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACE2D5BEE27A2BCB9610E0E /* libPods-EventsAndAdventures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EventsAndAdventures.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5E2481D547568E61C5B8F3C /* Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig"; sourceTree = "<group>"; };
+		C24C09A1068825C385711DA3 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEAF4A36FE97DA82EC2E707C /* Pods-EventsAndAdventures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures.release.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F83E7E16EBA2FA19F41F05F9 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig"; path = "Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85422336E44C9038F42F77F3 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a in Frameworks */,
+				C0AEA548C11A61399B5F079F /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDD8C024C6F10078A88A222 /* libPods-EventsAndAdventures.a in Frameworks */,
+				F53E29E9DFD1266ED2085509 /* libPods-EventsAndAdventures.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CB48C3F0169C80EC5D8B084F /* libPods-EventsAndAdventures.a */,
-				9B76BAB5524F1185EAB84107 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a */,
+				8ACE2D5BEE27A2BCB9610E0E /* libPods-EventsAndAdventures.a */,
+				61397DDD0DDAB22A2A4EB8F0 /* libPods-EventsAndAdventures-EventsAndAdventuresTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +121,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4DF198E02B33329500210A3B /* fonts */,
+				4DF198DD2B33280000210A3B /* GeneralSans-Regular.ttf */,
 				86CF3D292B1DA3CA005ECF52 /* fonts */,
 				13B07FAE1A68108700A75B9A /* EventsAndAdventures */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -143,7 +148,7 @@
 		86CF3D292B1DA3CA005ECF52 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				86CF3D2A2B1DA3CA005ECF52 /* GeneralSans-Variable.ttf */,
+				4DF198DB2B33223700210A3B /* GeneralSans-Regular.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -151,10 +156,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5355BF6A604E800C07BE5DF2 /* Pods-EventsAndAdventures.debug.xcconfig */,
-				96D1ADC714D31A19B6883DB1 /* Pods-EventsAndAdventures.release.xcconfig */,
-				F83E7E16EBA2FA19F41F05F9 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig */,
-				1B04E20E48860A65CAC484F3 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig */,
+				332B52094E45690A03953EE6 /* Pods-EventsAndAdventures.debug.xcconfig */,
+				CEAF4A36FE97DA82EC2E707C /* Pods-EventsAndAdventures.release.xcconfig */,
+				C24C09A1068825C385711DA3 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig */,
+				B5E2481D547568E61C5B8F3C /* Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EventsAndAdventuresTests" */;
 			buildPhases = (
-				AA935E6AA9869EDDB4F3ACE7 /* [CP] Check Pods Manifest.lock */,
+				DA641068A776A8EABBEBE797 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				F9E398F8D336A81C0039250D /* [CP] Embed Pods Frameworks */,
-				B6BB60B7E732BB5C4761A5D6 /* [CP] Copy Pods Resources */,
+				38B60B2D68C332D60B6A2517 /* [CP] Embed Pods Frameworks */,
+				EEC2E7C1DCC8608507CE0C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,6 +184,7 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = EventsAndAdventuresTests;
+			productName = EventsAndAdventuresTests;
 			productReference = 00E356EE1AD99517003FC87E /* EventsAndAdventuresTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -186,14 +192,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EventsAndAdventures" */;
 			buildPhases = (
-				B725C1B29943078EF74A1285 /* [CP] Check Pods Manifest.lock */,
+				62F7CAED028AE20EA34E83F2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				45AF286F96BE756A30DB30D3 /* [CP] Embed Pods Frameworks */,
-				2FDF92350A9C25F4A3041D6B /* [CP] Copy Pods Resources */,
+				D2200DA917EA5B0A275F2FAD /* [CP] Embed Pods Frameworks */,
+				9AEE46A0C529972CA64E9BFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,9 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF198E12B33329500210A3B /* fonts in Resources */,
+				4DF198DF2B332A2600210A3B /* GeneralSans-Regular.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				86CF3D2B2B1DA3CA005ECF52 /* GeneralSans-Variable.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,80 +284,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		2FDF92350A9C25F4A3041D6B /* [CP] Copy Pods Resources */ = {
+		38B60B2D68C332D60B6A2517 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		45AF286F96BE756A30DB30D3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AA935E6AA9869EDDB4F3ACE7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EventsAndAdventures-EventsAndAdventuresTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B6BB60B7E732BB5C4761A5D6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B725C1B29943078EF74A1285 /* [CP] Check Pods Manifest.lock */ = {
+		62F7CAED028AE20EA34E83F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,21 +323,77 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9E398F8D336A81C0039250D /* [CP] Embed Pods Frameworks */ = {
+		9AEE46A0C529972CA64E9BFA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2200DA917EA5B0A275F2FAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures/Pods-EventsAndAdventures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA641068A776A8EABBEBE797 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EventsAndAdventures-EventsAndAdventuresTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEC2E7C1DCC8608507CE0C7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventsAndAdventures-EventsAndAdventuresTests/Pods-EventsAndAdventures-EventsAndAdventuresTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -441,7 +448,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83E7E16EBA2FA19F41F05F9 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig */;
+			baseConfigurationReference = C24C09A1068825C385711DA3 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -468,7 +475,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B04E20E48860A65CAC484F3 /* Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig */;
+			baseConfigurationReference = B5E2481D547568E61C5B8F3C /* Pods-EventsAndAdventures-EventsAndAdventuresTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -492,7 +499,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5355BF6A604E800C07BE5DF2 /* Pods-EventsAndAdventures.debug.xcconfig */;
+			baseConfigurationReference = 332B52094E45690A03953EE6 /* Pods-EventsAndAdventures.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -521,7 +528,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96D1ADC714D31A19B6883DB1 /* Pods-EventsAndAdventures.release.xcconfig */;
+			baseConfigurationReference = CEAF4A36FE97DA82EC2E707C /* Pods-EventsAndAdventures.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

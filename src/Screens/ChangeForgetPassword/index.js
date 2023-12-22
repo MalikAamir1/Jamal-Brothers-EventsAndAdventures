@@ -157,7 +157,7 @@ export const ChangeForgetPassword = ({route}) => {
                     }}>
                     <Pressable
                       onPress={() => {
-                        Navigation.goBack();
+                        Navigation.navigate('ForgotPassword');
                       }}>
                       <View
                         style={{

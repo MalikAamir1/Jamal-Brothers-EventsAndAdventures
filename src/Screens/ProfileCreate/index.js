@@ -348,7 +348,7 @@ export const ProfileCreate = () => {
                             fontFamily: 'GeneralSans-Variable',
                             fontStyle: 'normal',
                             fontWeight: 500,
-                            lineHeight: 24, /* 150% */
+                            // lineHeight: 24, /* 150% */
                             letterSpacing: -0.446,
                             width: 330,
                           }}>

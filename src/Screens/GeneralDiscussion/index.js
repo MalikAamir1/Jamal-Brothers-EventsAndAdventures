@@ -468,7 +468,7 @@ export const GeneralDiscussion = () => {
           // marginBottom: 20,
           marginTop: Platform.OS === 'ios' ? 40 : 0,
         }}>
-        <Head head={'General Discussion'} />
+        <Head head={'General Discussion'} generalDiscussion={true} />
       </View>
       <View
         style={{
@@ -481,6 +481,25 @@ export const GeneralDiscussion = () => {
           marginRight: 'auto',
           marginLeft: 'auto',
         }}></View>
+        <View
+        style={{
+          width: '100%',
+          marginLeft: 'auto',
+          marginRight: 'auto',
+          // marginBottom: 110,
+        }}>
+        <Heading
+          Stylefont={'normal'}
+          Fontweight={500}
+          Fontsize={14}
+          Heading={'Tuesday, 25 July 2023 - 9:34 pm'}
+          color={'grey'}
+          ls={-0.446}
+          lh={20}
+          txtAlign={'center'}
+          mt={20}
+        />
+      </View>
       <View style={{ marginHorizontal: 10, flex: 1 }}>
         {/* <ChatScreen aa={true} /> */}
 
@@ -514,7 +533,7 @@ export const GeneralDiscussion = () => {
             renderItem={renderItem}
             contentContainerStyle={{ flexGrow: 1, minHeight: 200, justifyContent: 'flex-end' }}
             showsVerticalScrollIndicator={false}
-            ListHeaderComponent={ListHeaderComponent}
+            // ListHeaderComponent={ListHeaderComponent}
           // inverted={true} // Set this to true to start the FlatList from the bottom
 
           />

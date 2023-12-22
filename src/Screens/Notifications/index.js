@@ -103,7 +103,7 @@ export const Notifications = () => {
       imageType: true
     },
     {
-      id: 8,
+      id: 9,
       image: require('../../Assets/Images/EAA/chatprofile11.png'),
       head: 'Box Shelve',
       description: 'Lorem ipsum dolor sit amet, Lorem ipsum dolor.',
@@ -279,7 +279,7 @@ export const Notifications = () => {
           <FlatList
             data={data}
             renderItem={renderItem}
-            keyExtractor={item => item.metal_id}
+            keyExtractor={item => item.id}
             contentContainerStyle={{
               flexDirection: 'column',
               // marginHorizontal: 15,

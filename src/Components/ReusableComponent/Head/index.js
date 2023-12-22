@@ -1,12 +1,16 @@
-import {useNavigation} from '@react-navigation/native';
-import {Image, Platform, Pressable, View} from 'react-native';
+import { useNavigation } from '@react-navigation/native';
+import { Image, Platform, Pressable, View } from 'react-native';
 import Heading from '../Heading';
-import {useState} from 'react';
+import { useState } from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 function Head(props) {
   const Navigation = useNavigation();
   console.log('headprops', props);
+
+  const [generalDiscussion, setGeneralDiscussion] = useState(
+    props.generalDiscussion ? props.generalDiscussion : false,
+  );
 
   return (
     <View
@@ -38,7 +42,8 @@ function Head(props) {
         }}>
         <Pressable
           onPress={() => {
-            Navigation.goBack();
+            generalDiscussion ? Navigation.navigate('EventsDetail') :
+              Navigation.goBack();
             // setScreenName(false);
           }}>
           {/* <Image
@@ -58,7 +63,7 @@ function Head(props) {
           />
         </Pressable>
       </View>
-      <View style={{marginTop: 0}}>
+      <View style={{ marginTop: 0 }}>
         <Heading
           Stylefont={'normal'}
           Fontweight={600}

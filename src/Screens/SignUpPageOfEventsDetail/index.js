@@ -740,6 +740,7 @@ export const SignUpPageOfEventsDetail = () => {
                       true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                     }}
+                    hideBox={true}
                     style={{
                       width: Platform.OS === 'ios' ? 20 : 25,
                       height: Platform.OS === 'ios' ? 20 : 25,
@@ -753,7 +754,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 6 : 15,
-                    bottom: 5,
+                    bottom: 3,
                   }}>
                   <Text
                     style={{
@@ -905,6 +906,7 @@ export const SignUpPageOfEventsDetail = () => {
                       true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                     }}
+                    hideBox={true}
                     style={{
                       width: Platform.OS === 'ios' ? 20 : 25,
                       height: Platform.OS === 'ios' ? 20 : 25,
@@ -918,7 +920,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 10 : 15,
-                    bottom: 5,
+                    bottom: 3,
                     width: 300
                   }}>
                   <Text
@@ -962,6 +964,7 @@ export const SignUpPageOfEventsDetail = () => {
                       true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                     }}
+                    hideBox={true}
                     style={{
                       width: Platform.OS === 'ios' ? 20 : 25,
                       height: Platform.OS === 'ios' ? 20 : 25,
@@ -975,7 +978,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 10 : 15,
-                    bottom: 5,
+                    bottom: 3,
                     width: 300
                   }}>
                   <Text
@@ -1019,6 +1022,7 @@ export const SignUpPageOfEventsDetail = () => {
                       true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                     }}
+                    hideBox={true}
                     style={{
                       width: Platform.OS === 'ios' ? 20 : 25,
                       height: Platform.OS === 'ios' ? 20 : 25,
@@ -1032,7 +1036,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 10 : 15,
-                    bottom: 5,
+                    bottom: 3,
                     width: 300
                   }}>
                   <Text
@@ -1074,6 +1078,7 @@ export const SignUpPageOfEventsDetail = () => {
                       true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                     }}
+                    hideBox={true}
                     style={{
                       width: Platform.OS === 'ios' ? 20 : 25,
                       height: Platform.OS === 'ios' ? 20 : 25,
@@ -1087,7 +1092,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 10 : 15,
-                    bottom: 5,
+                    bottom: 3,
                     width: 300
                   }}>
                   <Text
@@ -1129,6 +1134,7 @@ export const SignUpPageOfEventsDetail = () => {
                       true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                     }}
+                    hideBox={true}
                     style={{
                       width: Platform.OS === 'ios' ? 20 : 25,
                       height: Platform.OS === 'ios' ? 20 : 25,
@@ -1142,7 +1148,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 10 : 15,
-                    bottom: 5,
+                    bottom: 3,
                     width: 300
                   }}>
                   <Text
@@ -1175,6 +1181,7 @@ export const SignUpPageOfEventsDetail = () => {
                     borderRadius: 5,
                     // overflow: 'hidden',
                     flexDirection: 'row',
+                    // justifyContent: 'center'
                     // marginHorizontal: 15,
                     // borderColor: '#D43D1C',
                     // borderWidth: 1,
@@ -1193,6 +1200,7 @@ export const SignUpPageOfEventsDetail = () => {
                         true: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                         false: Platform.OS === 'ios' ? '#D4271C' : '#D4271C',
                       }}
+                      hideBox={true}
                       style={{
                         width: Platform.OS === 'ios' ? 20 : 25,
                         height: Platform.OS === 'ios' ? 20 : 25,
@@ -1207,7 +1215,7 @@ export const SignUpPageOfEventsDetail = () => {
                   style={{
                     width: '95%',
                     marginLeft: Platform.OS == 'ios' ? 10 : 15,
-                    bottom: 5,
+                    bottom: 3,
                     width: 300
                   }}>
                   <Text
